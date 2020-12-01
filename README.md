@@ -1,7 +1,8 @@
 # Productivity scripts
 
-Unfortunately runs only on Windows.
+Below is a list of scripts to save you time.
 You will need to download and install [AutoHotkey](https://www.autohotkey.com) in order to run the scripts.
+Unfortunately runs only on Windows.
 
 #### Note for non-developers
 Download this in ".zip" by clicking 👉 [here](https://github.com/BorisKaravasilev/ProductivityScripts/archive/master.zip) 👈.
