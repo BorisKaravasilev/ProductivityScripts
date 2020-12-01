@@ -18,7 +18,7 @@ For faster cursor navigation and text selection in any program.
 //      by combinations of "Alt", "Alt+Shift" or "Alt+Shift+Ctrl" combined
 //      with a direction key.
 
-//      Direction keys layout
+//      Direction keys layout:
 //
 //                  u ↑
 //
