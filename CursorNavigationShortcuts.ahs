@@ -24,6 +24,9 @@
 //                 m  ↓
 //
 //
+//     h (Home) ← ←       → →  l (Line end)
+//
+//
 //      Direction key combined with:
 //
 //      Alt                 Moves cursor

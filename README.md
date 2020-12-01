@@ -5,6 +5,7 @@ You will need to download and install [AutoHotkey](https://www.autohotkey.com) i
 Unfortunately runs only on Windows.
 
 #### Note for non-developers
+
 Download this in ".zip" by clicking 👉 [here](https://github.com/BorisKaravasilev/ProductivityScripts/archive/master.zip) 👈.
 
 ## [CursorNavigationShortcuts](CursorNavigationShortcuts.ahs)
@@ -27,11 +28,13 @@ For faster cursor navigation and text selection in any program.
 //                 m  ↓
 //
 //
+//     h (Home) ← ←       → →  l (Line end)
+//
+//
 //      Direction key combined with:
 //
 //      Alt                 Moves cursor
 //      Alt+Shift           Selects text by word or line
 //      Alt+Shift+Ctrl      Selects text by character (left or right)
-//
 //
 ```
