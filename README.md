@@ -2,7 +2,7 @@
 
 Below is a list of scripts to save you time.
 You will need to download and install [AutoHotkey](https://www.autohotkey.com) in order to run the scripts.
-Unfortunately runs only on Windows.
+Unfortunately runs only on Windows. After you run the script it will run in background. Try it out in any text editor or text field.
 
 #### Note for non-developers
 
