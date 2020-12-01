@@ -1,0 +1,104 @@
+#CommentFlag //  ; Change to C++ comment style.
+
+// ===========================
+// Cursor Navigation Shortcuts 
+// ===========================
+//
+// Author: Boris Karavasilev
+// Email:  karavasilev.boris@gmail.com
+//
+// This as an AutoHotkey script (download at: www.autohotkey.com)
+//
+//
+// Description:
+//      Allows you to move the text cursor and select text
+//      by combinations of "Alt", "Alt+Shift" or "Alt+Shift+Ctrl" combined
+//      with a direction key.
+
+//      Direction keys layout
+//
+//                  u ↑
+//
+//          j ←             k →
+//
+//                 m  ↓
+//
+//
+//      Direction key combined with:
+//
+//      Alt                 Moves cursor
+//      Alt+Shift           Selects text by word or line
+//      Alt+Shift+Ctrl      Selects text by character (left or right)
+//
+//
+
+// Explanation of symbols used below
+// ! - Alt
+// + - Shift
+// ^ - Ctrl
+
+
+#MenuMaskKey vkE8  // Change the masking key to something unassigned such as vkE8.
+
+// ---------------- Basic navigation
+!j::
+Send {Left}
+return
+
+!k::
+Send {Right}
+return
+
+!u::
+Send {Up}
+return
+
+!m::
+Send {Down}
+return
+
+
+// ---------------- Jump on line
+!h::
+Send {Home}
+return
+
+!l::
+Send {End}
+return
+
+// ---------------- Select word
+!+j::
+Send ^+{Left}
+return
+
+!+k::
+Send ^+{Right}
+return
+
+// ---------------- Select character
+^!+j::
+Send +{Left}
+return
+
+^!+k::
+Send +{Right}
+return
+
+// Select to line start / end
+!+h::
+Send +{Home}
+return
+
+!+l::
+Send +{End}
+return
+
+// Expand selection by line
+!+u::
+Send +{Up}
+return
+
+!+m::
+Send +{Down}
+return
