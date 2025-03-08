@@ -1,16 +1,13 @@
 # Productivity scripts
 
 Below is a list of scripts to save you time.
-You will need to download and install [AutoHotkey](https://www.autohotkey.com) in order to run the scripts.
-Unfortunately runs only on Windows. After you run the script it will run in background. Try it out in any text editor or text field.
 
-#### Note for non-developers
+## Cursor Navigation Shortcuts
 
-Download this in ".zip" by clicking 👉 [here](https://github.com/BorisKaravasilev/ProductivityScripts/archive/master.zip) 👈.
+Cursor navigation bindings inspired by Vim. Simplified and more intuitive due to respecting the directions the keys point in. Work in any app.
 
-## [CursorNavigationShortcuts](CursorNavigationShortcuts.ahs)
-
-For faster cursor navigation and text selection in any program.
+- Windows: [AutoHotkey Config](CursorNavigationShortcuts.ahs)
+- MacOS: [Karabiner-Elements Config](karabiner.json)
 
 ```
 //
